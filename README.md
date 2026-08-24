@@ -1,6 +1,6 @@
 # Evergreen MOSS shell
 
-An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell](https://quickshell.org/) that I use as my desktop environment. Release later...
+An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell](https://quickshell.org/) that I use as my desktop environment. TODO: Release later...
 
 ## Preview
 
