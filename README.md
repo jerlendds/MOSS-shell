@@ -14,7 +14,7 @@ An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell
 | Feature | Description | Requirments |
 |------------|-------------|----------|
 | Agents | TODO: work-in-progress | [LM Studio](https://lmstudio.ai/) |
-| App launcher | Top left bar ropdown menu for searching and starting your desktop apps |  |
+| App launcher | Top left bar dropdown menu for searching and starting your desktop apps |  |
 | Calendar  | [Proton Calendar](https://calendar.proton.me) authenticated via your Proton account through [Roman-16](https://github.com/roman-16/)'s wonderful `proton-cli` | [proton-cli](https://github.com/roman-16/proton-cli)  |
 | Coding analytics | Wakapi-inspired dashboard that connects directly to a local wakapi sqlite file | [wakapi](https://github.com/muety/wakapi) + [codex-wakatime](https://github.com/angristan/codex-wakatime) |
 | Clipboard history | Copy old clipboard text and images from the past | [cliphist](https://github.com/sentriz/cliphist.git) |
