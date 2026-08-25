@@ -9,16 +9,29 @@ An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell
 ## Features
 
 <!--  Me + AI manually vetted the code at this last hash: https://github.com/roman-16/proton-cli/commit/97f80d65f6862eaa13cca225e301f08cbceb51c3 ~ looks legit, no malware :). I can not vouch for any newer commits at this time... -->
-- Calendar          ~ Integrated with [Proton Calendar](https://calendar.proton.me) via [Roman-16](https://github.com/roman-16/)'s wonderful [proton-cli](https://github.com/roman-16/proton-cli) 
-- Agents            ~ [LM Studio](https://lmstudio.ai/)
-- Coding Analytics  ~ [wakapi](https://github.com/muety/wakapi) + [codex-wakatime](https://github.com/angristan/codex-wakatime)
-- Clipboard History ~ [cliphist](https://github.com/sentriz/cliphist.git)
-- Password manager  ~ [KeepassXC](https://github.com/keepassxreboot/keepassxc)
-- Weather           ~ [Open-Meteo](https://open-meteo.com/)
-- Github Traffic+Github Release Download stats panel
-- Markdown Note Editor
-- App launcher
-- etc
+
+
+| Feature | Description | Requirments |
+|------------|-------------|----------|
+| Agents | TODO: work-in-progress | [LM Studio](https://lmstudio.ai/) |
+| App launcher | Top left bar ropdown menu for searching and starting your desktop apps |  |
+| Calendar  | [Proton Calendar](https://calendar.proton.me) authenticated via your Proton account through [Roman-16](https://github.com/roman-16/)'s wonderful `proton-cli` | [proton-cli](https://github.com/roman-16/proton-cli)  |
+| Coding analytics | Wakapi-inspired dashboard that connects directly to a local wakapi sqlite file | [wakapi](https://github.com/muety/wakapi) + [codex-wakatime](https://github.com/angristan/codex-wakatime) |
+| Clipboard history | Copy old clipboard text and images from the past | [cliphist](https://github.com/sentriz/cliphist.git) |
+| Password manager | Copy TOTP tokens and passwords from keepasscx files | [KeepassXC](https://github.com/keepassxreboot/keepassxc) |
+| Weather | View the weather for your city | [Open-Meteo](https://open-meteo.com/) |
+| Github traffic/release Downloads | Stats for OSS devs | [Github CLI](https://cli.github.com/) |
+| Markdown editor | Codemirror [facets inspired architecture](.config/quickshell/markdown/README.md) md editor with a graph view | --- |
+| Screen recorder  | Record a monitor and edit the video files through a notification menu | [ffmpeg](https://ffmpeg.org/) |
+| Projects launcher | A repo list to open anything in the ~/Projects directory with `vscodium` | |
+| Volume OSD sliders | Control master of per-app volume levels | |
+| System metrics for RAM/CPU and the top processes | View your system utilziation metrics | |
+| Flameshot screenshots with post-screenshot editing via Pinta | $mod+Shift+s | [pinta](https://www.pinta-project.com/) + [Flameshot](https://flameshot.org/) |
+| Bottom notifications bar | TODO: View past notifications and with a subtle animation for new notifications | |
+| $mod-tab i3 workspace switching | TODO... | |
+| File indexer/file search | TODO... | |
+| Image indexer/AI captions/image search | TODO... | |
+
 
 <!-- TODO:
 - Email ~ Integrated with [Proton Email](https://mail.proton.me) via [proton-cli](https://github.com/roman-16/proton-cli)
@@ -31,12 +44,11 @@ An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell
 - Pomodoro timer
 
  -->
-- 
 
 <!-- ## Prerequisites
 
 
-#c Wonder why they called it wl-clipboard (wayland), works on the superior X11 system too, hmph 
+# Wonder why we need wl-clipboard (wayland), cliphist with wl-clipboard works on the superior X11 system too despite no wl-clipboard commands working, hmph 
 ```bash
 sudo pacman -S xdg-utils wl-clipboard github-cli
 

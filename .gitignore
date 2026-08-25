@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# KDBX DBs
+.passwords/
+
+# Wakapi
+.wakatime.cfg
+.local/state/wakapi/stats.db
