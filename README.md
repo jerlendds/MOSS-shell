@@ -24,7 +24,7 @@ An evergreen **M**odular **O**verlay **S**hell **S**ystem built with [quickshell
 | Markdown editor | Codemirror [facets inspired architecture](.config/quickshell/markdown/README.md) md editor with a graph view | --- |
 | Screen recorder  | Record a monitor and edit the video files through a notification menu | [ffmpeg](https://ffmpeg.org/) |
 | Projects launcher | A repo list to open anything in the ~/Projects directory with `vscodium` | |
-| Volume OSD sliders | Control master of per-app volume levels | |
+| Volume OSD sliders | Control master or per-app volume levels | |
 | System metrics for RAM/CPU and the top processes | View your system utilziation metrics | |
 | Flameshot screenshots with post-screenshot editing via Pinta | $mod+Shift+s | [pinta](https://www.pinta-project.com/) + [Flameshot](https://flameshot.org/) |
 | Bottom notifications bar | TODO: View past notifications and with a subtle animation for new notifications | |
